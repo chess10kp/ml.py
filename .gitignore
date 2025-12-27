@@ -1,0 +1,8 @@
+# 1. Ignore everything
+*
+
+# 2. But don't ignore directories (so Git can look inside them)
+!*/
+
+# 3. Don't ignore .py files in any directory
+!**/*.py
